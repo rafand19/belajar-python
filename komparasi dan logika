@@ -1,0 +1,18 @@
+inputUser = float(input("masukan angka yang bernilai\nkurang dari 3 \natau \nlebih besar dari 10\n:"))
+isKurangDari = (inputUser < 3)
+print("Kurang Dari 3 =", isKurangDari)
+
+isLebihDari = (inputUser > 10)
+print("Lebih Dari 10 =", isLebihDari)
+isCorrect = isKurangDari or isLebihDari
+print("angka yang anda masukan: ", isCorrect)
+
+
+print("\n",10*"=","\n")
+inputUser = float(input("masukan angka yang bernilai\nlebih dari 3 \ndan \nkurang dari 10\n:"))
+isLebihDari = inputUser > 3
+print("lebih dari 3 = ", isLebihDari)
+
+
+isKurangDari = inputUser < 10
+print("Kurang dari 10 = ", isKurangDari)
